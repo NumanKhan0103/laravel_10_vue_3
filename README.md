@@ -1,5 +1,5 @@
 
-# Project Title
+# Laravel 10 With Vue 3
 
 complate step by step process how to install vue 3 with laravel 10
 
@@ -73,7 +73,7 @@ Now your vite.config.js look like this
   });
 ```
 
-Step 7 :: Now Go To publis/js/app.js file 
+Step 7 :: Now Go To public/js/app.js file 
 
 ```bash
   import './bootstrap';
@@ -103,7 +103,7 @@ Step 8 :: Go To resources/view/ main.blade.php or add in the head of website
   @vite('resources/js/app.js')
 
 ```
-Stpe 9 ::  And add this in the body 
+Step 9 ::  And add this in the body 
 ```bash 
 
   <div id="app"></div>
@@ -111,7 +111,7 @@ Stpe 9 ::  And add this in the body
 ```
 
 ## Create a Basic Compnent
-Stpe 10 :: Create a components folder in the resources/js/
+Step 10 :: Create a components folder in the resources/js/
 ```bash 
 
   resources/js/components
